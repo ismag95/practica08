@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Neuton:400,700,400italic);
+
+body {
+    background-color: black;
+    background-image: url("../img/astral-weeks-cabecera.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100px;
+    background-position: top;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    }
+p {
+    font-family: 'Neuton', serif;
+    }
+ul {
+    font-family: 'Neuton', serif;
+    }
+img {
+    width: 300px;
+    height: 300px;
+    border: 3px solid white;
+    margin-left: 40%;
+    }
+h1, h2 {
+    background-color:black;
+    opacity: 0.5;
+    margin-top: 10px;
+    }
+h2:nth-of-type(2) {
+    background-color: gray;
+                    }
+a:hover {
+    color:yellow;
+    }
